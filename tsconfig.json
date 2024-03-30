@@ -13,6 +13,10 @@
     "noImplicitAny": true,
     "noPropertyAccessFromIndexSignature": true
   },
+  "typedocOptions": {
+    "entryPoints": ["src/**/*", "src/*.d.ts"],
+    "out": "docs"
+  },
   "include": ["src/**/*", "src/*.d.ts"],
   "exclude": ["node_modules"]
 }
